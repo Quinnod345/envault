@@ -1,0 +1,19 @@
+{
+  "name": "@quinnod345/envault",
+  "version": "1.0.0",
+  "description": "Encrypt .env files so they can be safely committed to git. Dead simple.",
+  "main": "index.js",
+  "bin": {
+    "envault": "./bin/envault.js"
+  },
+  "keywords": ["env", "encrypt", "dotenv", "security", "git", "secrets"],
+  "author": "Oneiro <oneiro-dev@proton.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quinnod345/envault.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
